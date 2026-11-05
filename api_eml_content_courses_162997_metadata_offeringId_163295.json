@@ -1,0 +1,4896 @@
+{
+ "id": "162997",
+ "name": "Application Integration on Oracle Cloud",
+ "description": "<p>Oracle Integration Cloud provides a fully managed, preconfigured environment that gives you the power to integrate your cloud and on-premises applications. Selecting from the portfolio of hundreds of adapters and recipes to connect with Oracle and third-party applications, developers and cloud architects can connect SaaS and on-premises applications six times faster with a visual development experience, prebuilt integrations, and embedded best practices. This Learning Path provides training to help you embark on a successful journey to master OIC Integrations design and implementation.</p>\r\n",
+ "typeId": "22",
+ "benefits": "<p>This course is ideal for developers and cloud architects who are in the look out for an integration platform to solve modern business integration problems. Oracle Integration Cloud caters to various key integration use-cases spanning across your SaaS and on-premises applications.</p>\r\n\r\n<p>Learn To:</p>\r\n\r\n<p>&bull; Understand OIC components, features, and capabilities<br />\r\n&bull; Create and configure connections (Adapter, Trigger, Invoke)<br />\r\n&bull; Create Integrations (App Driven and Scheduled Orchestrations)<br />\r\n&bull; Map data using Lookups and the Data Mapper<br />\r\n&bull; Leverage file handling options, features, and capabilities<br />\r\n&bull; Configure orchestration actions and fault handling logic</p>\r\n",
+ "freeYn": "N",
+ "transcriptKey": "9KtLzHX8ybAZIdJ_fqtISODc_WE2l5Vy",
+ "gcc": "S1114459GC10",
+ "showPostOnCommunity": "Y",
+ "audience": [
+  "All Users"
+ ],
+ "tenantId": "1",
+ "showFeedbackYN": "Y",
+ "showAskInstructorYN": "Y",
+ "subscriptionName": "Oracle Cloud Infrastructure Learning & Certification Subscription",
+ "subscriptionTypeId": "20",
+ "keywords": [],
+ "filterTypes": [
+  {
+   "id": "58",
+   "name": "Types",
+   "filters": [
+    "Course"
+   ]
+  }
+ ],
+ "modules": [
+  {
+   "id": "163013",
+   "name": "Introduction to OIC",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "272018",
+     "name": "Learning Path Overview",
+     "description": "<p>Learning Path Overview</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "453",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272019",
+     "name": "OIC Overview",
+     "description": "OIC Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "735",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218116",
+     "name": "Integrations Feature Overview",
+     "description": "Integrations Feature Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "431"
+    },
+    {
+     "id": "218117",
+     "name": "Integrations Feature Use Cases",
+     "description": "Integrations Feature Use Cases",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "489"
+    },
+    {
+     "id": "272016",
+     "name": "Integrating Oracle Applications",
+     "description": "<p>Integrating Oracle Applications</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "593",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218118",
+     "name": "Elements of an Integration",
+     "description": "Elements of an Integration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "196"
+    },
+    {
+     "id": "218119",
+     "name": "Understanding OIC Service Roles",
+     "description": "Understanding OIC Service Roles",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "299"
+    },
+    {
+     "id": "242607",
+     "name": "Using Integration Projects",
+     "description": "Using Integration Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "548",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218121",
+     "name": "Demo: Using Projects",
+     "description": "Demo: Using Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "302"
+    },
+    {
+     "id": "218122",
+     "name": "Getting Started With Integrations",
+     "description": "Getting Started With Integrations",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "485"
+    },
+    {
+     "id": "272378",
+     "name": "Skill Check: Module 1: Introduction to OIC",
+     "description": "<p>Skill Check: Module 1: Introduction to OIC</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15031",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "4531"
+  },
+  {
+   "id": "163037",
+   "name": "Adapters & Connections Module Overview",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218125",
+     "name": "Adapters & Connections Module Overview",
+     "description": "Adapters & Connections Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "376"
+    },
+    {
+     "id": "242609",
+     "name": "Understanding Adapters & Connections",
+     "description": "Understanding Adapters & Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "280",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272010",
+     "name": "Creating Connections",
+     "description": "Creating Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "444",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242580",
+     "name": "Demo: Connection Sharing Between Projects",
+     "description": "Demo: Connection Sharing Between Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "205",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218126",
+     "name": "Connection & Security Properties (Part 1)",
+     "description": "Connection & Security Properties (Part 1)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "539"
+    },
+    {
+     "id": "218127",
+     "name": "Connection & Security Properties (Part 2)",
+     "description": "Connection & Security Properties (Part 2)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "538"
+    },
+    {
+     "id": "218128",
+     "name": "Defining SOAP Adapter Connections (Part 1)",
+     "description": "Defining SOAP Adapter Connections (Part 1)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "329"
+    },
+    {
+     "id": "218129",
+     "name": "Defining SOAP Adapter Connections (Part 2)",
+     "description": "Defining SOAP Adapter Connections (Part 2)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "437"
+    },
+    {
+     "id": "218130",
+     "name": "Defining REST Adapter Connections",
+     "description": "Defining REST Adapter Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "581"
+    },
+    {
+     "id": "218131",
+     "name": "Connecting to Private Resources",
+     "description": "Connecting to Private Resources",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "523"
+    },
+    {
+     "id": "218132",
+     "name": "Connectivity Agent\u00a0 Architecture",
+     "description": "Connectivity Agent\u00a0 Architecture",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "598"
+    },
+    {
+     "id": "272012",
+     "name": "Demo: Using the Azure AD Adapter",
+     "description": "Demo: Using the Azure AD Adapter",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "229",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272379",
+     "name": "Skill Check: Module 2: Adapters &amp; Connections",
+     "description": "<p>Skill Check: Module 2: Adapters &amp;amp; Connections</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15032",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "5079"
+  },
+  {
+   "id": "163035",
+   "name": "Configuring Connections",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218133",
+     "name": "Configuring Connections Module Overview",
+     "description": "Configuring Connections Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "49"
+    },
+    {
+     "id": "218134",
+     "name": "Configuring Trigger Connections",
+     "description": "Configuring Trigger Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "479"
+    },
+    {
+     "id": "218135",
+     "name": "REST Trigger Configuration",
+     "description": "REST Trigger Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "341"
+    },
+    {
+     "id": "218136",
+     "name": "Demo: REST Trigger Configuration",
+     "description": "Demo: REST Trigger Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "406"
+    },
+    {
+     "id": "218137",
+     "name": "Demo: SOAP Trigger Configuration",
+     "description": "Demo: SOAP Trigger Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "674"
+    },
+    {
+     "id": "242605",
+     "name": "Database Trigger\u00a0Configuration",
+     "description": "Database Trigger\u00a0Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "366",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218139",
+     "name": "Oracle ERP Cloud Trigger\u00a0Configuration",
+     "description": "Oracle ERP Cloud Trigger\u00a0Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "447"
+    },
+    {
+     "id": "218140",
+     "name": "Demo: ERP Cloud Trigger Configuration",
+     "description": "Demo: ERP Cloud Trigger Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "605"
+    },
+    {
+     "id": "218141",
+     "name": "Configuring Invoke Connections",
+     "description": "Configuring Invoke Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "337"
+    },
+    {
+     "id": "218142",
+     "name": "Demo: REST Invoke Configuration",
+     "description": "Demo: REST Invoke Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "907"
+    },
+    {
+     "id": "218143",
+     "name": "Database Invoke Configuration",
+     "description": "Database Invoke Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "377"
+    },
+    {
+     "id": "218144",
+     "name": "Oracle ERP Cloud Invoke Configuration",
+     "description": "Oracle ERP Cloud Invoke Configuration",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "537"
+    },
+    {
+     "id": "272380",
+     "name": "Skill Check: Module 3: Configuring Connections",
+     "description": "<p>Skill Check: Module 3: Configuring Connections</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15033",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "5525"
+  },
+  {
+   "id": "163033",
+   "name": "Data Transformation",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218145",
+     "name": "Data Transformation Module Overview",
+     "description": "Data Transformation Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "42"
+    },
+    {
+     "id": "218146",
+     "name": "Map Editor Overview",
+     "description": "Map Editor Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "320"
+    },
+    {
+     "id": "218147",
+     "name": "Using the Map Editor (Part 1)",
+     "description": "Using the Map Editor (Part 1)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "219"
+    },
+    {
+     "id": "218148",
+     "name": "Using the Map Editor (Part 2)",
+     "description": "Using the Map Editor (Part 2)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "360"
+    },
+    {
+     "id": "218149",
+     "name": "Working with Functions, Operators, and XSLT Statements",
+     "description": "Working with Functions, Operators, and XSLT Statements",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "419"
+    },
+    {
+     "id": "218150",
+     "name": "Editing XSLT Code",
+     "description": "Editing XSLT Code",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "296"
+    },
+    {
+     "id": "218151",
+     "name": "Creating & Using OIC Lookups",
+     "description": "Creating & Using OIC Lookups",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "526"
+    },
+    {
+     "id": "242610",
+     "name": "Variables, Integration Properties, and Schedule Parameters",
+     "description": "Variables, Integration Properties, and Schedule Parameters",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "619",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272381",
+     "name": "Skill Check: Module 4: Data Transformation",
+     "description": "<p>Skill Check: Module 4: Data Transformation</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15034",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "2801"
+  },
+  {
+   "id": "163032",
+   "name": "Using Integration Actions",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218152",
+     "name": "Using Integration Actions Module Overview",
+     "description": "Using Integration Actions Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "44"
+    },
+    {
+     "id": "272017",
+     "name": "Integration Actions Overview",
+     "description": "Integration Actions Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "312",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218107",
+     "name": "Using the Data Stitch Action",
+     "description": "Using the Data Stitch Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "331"
+    },
+    {
+     "id": "218108",
+     "name": "Demo: Data Stitch Action",
+     "description": "Demo: Data Stitch Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "896"
+    },
+    {
+     "id": "242574",
+     "name": "Looping Actions",
+     "description": "Looping Actions",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "392",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242612",
+     "name": "Demo: Using the While Action",
+     "description": "Demo: Using the While Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "848",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242608",
+     "name": "Demo: Using the For Each Action",
+     "description": "Demo: Using the For Each Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "551",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242579",
+     "name": "Demo: Using the Switch Action",
+     "description": "Demo: Using the Switch Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "359",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218109",
+     "name": "Demo: Using the Parallel Action",
+     "description": "Demo: Using the Parallel Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "609"
+    },
+    {
+     "id": "218110",
+     "name": "Using the Scope Action",
+     "description": "Using the Scope Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "221"
+    },
+    {
+     "id": "218111",
+     "name": "Demo: Using the OCI Function Action",
+     "description": "Demo: Using the OCI Function Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "455"
+    },
+    {
+     "id": "218112",
+     "name": "Demo: Using the OCI Object Storage Action",
+     "description": "Demo: Using the OCI Object Storage Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "487"
+    },
+    {
+     "id": "218113",
+     "name": "Using the Wait Action",
+     "description": "Using the Wait Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "196"
+    },
+    {
+     "id": "218154",
+     "name": "Demo: Using the Wait Action",
+     "description": "Demo: Using the Wait Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "228"
+    },
+    {
+     "id": "218155",
+     "name": "Using the Note Action",
+     "description": "Using the Note Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "183"
+    },
+    {
+     "id": "272382",
+     "name": "Skill Check: Module 5: Using Integration Actions",
+     "description": "<p>Skill Check: Module 5: Using Integration Actions</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15035",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "6112"
+  },
+  {
+   "id": "163031",
+   "name": "File Processing",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218156",
+     "name": "File Processing Module Overview",
+     "description": "File Processing Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "51"
+    },
+    {
+     "id": "218170",
+     "name": "File Handling Fundamentals",
+     "description": "File Handling Fundamentals",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "444"
+    },
+    {
+     "id": "218171",
+     "name": "Defining FTP & File Adapter Connections",
+     "description": "Defining FTP & File Adapter Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "442"
+    },
+    {
+     "id": "277701",
+     "name": "Configuring FTP & File Adapter Connection Operations (Part 1)",
+     "description": "Configuring FTP & File Adapter Connection Operations (Part 1)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "418",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218173",
+     "name": "Configuring FTP & File Adapter Connection Operations (Part 2)",
+     "description": "Configuring FTP & File Adapter Connection Operations (Part 2)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "414"
+    },
+    {
+     "id": "218174",
+     "name": "Configuring File Server Action Operations",
+     "description": "Configuring File Server Action Operations",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "417"
+    },
+    {
+     "id": "218175",
+     "name": "Demo: File Server Action",
+     "description": "Demo: File Server Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "278"
+    },
+    {
+     "id": "218176",
+     "name": "Configuring Stage File Action Operations (Part 1)",
+     "description": "Configuring Stage File Action Operations (Part 1)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "415"
+    },
+    {
+     "id": "218177",
+     "name": "Configuring Stage File Action Operations (Part 2)",
+     "description": "Configuring Stage File Action Operations (Part 2)",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "646"
+    },
+    {
+     "id": "218178",
+     "name": "Transforming Native File Formats",
+     "description": "Transforming Native File Formats",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "575"
+    },
+    {
+     "id": "272383",
+     "name": "Skill Check: Module 6: File Processing",
+     "description": "<p>Skill Check: Module 6: File Processing</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15036",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "4100"
+  },
+  {
+   "id": "163030",
+   "name": "Error Handling",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218179",
+     "name": "Error Handling Module Overview",
+     "description": "Error Handling Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "37"
+    },
+    {
+     "id": "218180",
+     "name": "Designing Beyond the Happy Path",
+     "description": "Designing Beyond the Happy Path",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "355"
+    },
+    {
+     "id": "218181",
+     "name": "Implementing the Global Fault Handler",
+     "description": "Implementing the Global Fault Handler",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "460"
+    },
+    {
+     "id": "218182",
+     "name": "Handling Runtime Errors",
+     "description": "Handling Runtime Errors",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "571"
+    },
+    {
+     "id": "218183",
+     "name": "Throw New Fault Action",
+     "description": "Throw New Fault Action",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "282"
+    },
+    {
+     "id": "242606",
+     "name": "Fault Handling Best Practices",
+     "description": "Fault Handling Best Practices",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "685",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272384",
+     "name": "Skill Check: Module 7: Error Handling",
+     "description": "<p>Skill Check: Module 7: Error Handling</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15037",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "2390"
+  },
+  {
+   "id": "163029",
+   "name": "Additional Integration Topics",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218184",
+     "name": "Additional Integration Topics Module Overview",
+     "description": "Additional Integration Topics Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "58"
+    },
+    {
+     "id": "218185",
+     "name": "About Packages and Projects",
+     "description": "About Packages and Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "284"
+    },
+    {
+     "id": "218186",
+     "name": "Demo: Working With Projects",
+     "description": "Demo: Working With Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "508"
+    },
+    {
+     "id": "242616",
+     "name": "Demo: Viewing Project Dependencies",
+     "description": "Demo: Viewing Project Dependencies",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "219",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218187",
+     "name": "Integration Lifecycle Operations",
+     "description": "Integration Lifecycle Operations",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "581"
+    },
+    {
+     "id": "218188",
+     "name": "Demo: Integrations Observability",
+     "description": "Demo: Integrations Observability",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "964"
+    },
+    {
+     "id": "242615",
+     "name": "\tDemo: Integration Instance Tracking",
+     "description": "\tDemo: Integration Instance Tracking",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "361",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218189",
+     "name": "Demo: Publishing an Integration Endpoint to OCI API Gateway",
+     "description": "Demo: Publishing an Integration Endpoint to OCI API Gateway",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "135"
+    },
+    {
+     "id": "218190",
+     "name": "Demo: Using Events for Decoupling Integrations",
+     "description": "Demo: Using Events for Decoupling Integrations",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "408"
+    },
+    {
+     "id": "242614",
+     "name": "Demo: Using Events in Projects",
+     "description": "Demo: Using Events in Projects",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "296",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218191",
+     "name": "Defining Schedules",
+     "description": "Defining Schedules",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "335"
+    },
+    {
+     "id": "218192",
+     "name": "Using Schedule Parameters",
+     "description": "Using Schedule Parameters",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "198"
+    },
+    {
+     "id": "242578",
+     "name": "Managing Scheduled Integration Runs",
+     "description": "Managing Scheduled Integration Runs",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "367",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272021",
+     "name": "Using OIC Prebuilt Solutions",
+     "description": "Using OIC Prebuilt Solutions",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "469",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242617",
+     "name": "Demo: Using OIC Recipes",
+     "description": "Demo: Using OIC Recipes",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "846",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218157",
+     "name": "Demo: Using Accelerators",
+     "description": "Demo: Using Accelerators",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "598"
+    },
+    {
+     "id": "218159",
+     "name": "Demo: B2B Feature Overview",
+     "description": "Demo: B2B Feature Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "630"
+    },
+    {
+     "id": "218160",
+     "name": "Demo: B2B XSD & Documents",
+     "description": "Demo: B2B XSD & Documents",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "267"
+    },
+    {
+     "id": "218161",
+     "name": "Demo: B2B Trading Partner Transports",
+     "description": "Demo: B2B Trading Partner Transports",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "357"
+    },
+    {
+     "id": "218162",
+     "name": "Demo: B2B Trading Partner Agreements",
+     "description": "Demo: B2B Trading Partner Agreements",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "234"
+    },
+    {
+     "id": "218163",
+     "name": "Demo: B2B AS2 Connections",
+     "description": "Demo: B2B AS2 Connections",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "197"
+    },
+    {
+     "id": "218164",
+     "name": "Demo: B2B REST Protocol Support",
+     "description": "Demo: B2B REST Protocol Support",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "348"
+    },
+    {
+     "id": "218165",
+     "name": "Demo: B2B RossetaNet Protocol Support",
+     "description": "Demo: B2B RossetaNet Protocol Support",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "728"
+    },
+    {
+     "id": "218167",
+     "name": "Demo: B2B Fixed Length Documents",
+     "description": "Demo: B2B Fixed Length Documents",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "395"
+    },
+    {
+     "id": "218166",
+     "name": "Demo: B2B Resubmit Options",
+     "description": "Demo: B2B Resubmit Options",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "443"
+    },
+    {
+     "id": "272385",
+     "name": "Skill Check: Module 8: Additional Integration Topics",
+     "description": "<p>Skill Check: Module 8: Additional Integration Topics</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15038",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "10226"
+  },
+  {
+   "id": "163028",
+   "name": "OIC Administrator Tasks",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218168",
+     "name": "OIC Administrator Tasks Module Overview",
+     "description": "OIC Administrator Tasks Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "53"
+    },
+    {
+     "id": "242604",
+     "name": "Demo: Provision on OIC Instance",
+     "description": "Demo: Provision on OIC Instance",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "452",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218193",
+     "name": "Demo: Assigning OIC Service Roles",
+     "description": "Demo: Assigning OIC Service Roles",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "403"
+    },
+    {
+     "id": "218194",
+     "name": "Installing a Connectivity Agent",
+     "description": "Installing a Connectivity Agent",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "429"
+    },
+    {
+     "id": "218195",
+     "name": "Demo: Installing and Managing the Connectivity Agent",
+     "description": "Demo: Installing and Managing the Connectivity Agent",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "669"
+    },
+    {
+     "id": "272337",
+     "name": "Demo: Customer Managed Disaster Recovery",
+     "description": "S1110629GC10Ed7_Demo_Customer Managed Disaster Recovery",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "648",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218196",
+     "name": "Demo: Configuring an Allowlist to Restrict Access",
+     "description": "Demo: Configuring an Allowlist to Restrict Access",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "409"
+    },
+    {
+     "id": "218197",
+     "name": "Demo: Observability Features",
+     "description": "Demo: Observability Features",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "525"
+    },
+    {
+     "id": "218198",
+     "name": "Demo: OCI Service Metrics & OCI Logging",
+     "description": "Demo: OCI Service Metrics & OCI Logging",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "789"
+    },
+    {
+     "id": "218199",
+     "name": "Demo: OIC Dashboards in OCI Logging Analytics\u00a0",
+     "description": "Demo: OIC Dashboards in OCI Logging Analytics\u00a0",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "461"
+    },
+    {
+     "id": "242613",
+     "name": "Demo: Administering the OIC Embedded File Server",
+     "description": "Demo: Administering the OIC Embedded File Server",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "775",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242577",
+     "name": "Demo: Capturing OIC Activity Streams to OCI Logging",
+     "description": "Demo: Capturing OIC Activity Streams to OCI Logging",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "299",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272386",
+     "name": "Skill Check: Module 9: OIC Administrator Tasks",
+     "description": "<p>Skill Check: Module 9: OIC Administrator Tasks</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15039",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "5912"
+  },
+  {
+   "id": "163027",
+   "name": "Integration Solution Examples",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218201",
+     "name": "Integration Solution Examples Module Overview",
+     "description": "Integration Solution Examples Module Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "47"
+    },
+    {
+     "id": "218202",
+     "name": "Demo: Business Event Subscription",
+     "description": "Demo: Business Event Subscription",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "962"
+    },
+    {
+     "id": "218220",
+     "name": "Demo: Using the OCI AI Document Understanding Service",
+     "description": "Demo: Using the OCI AI Document Understanding Service",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "823"
+    },
+    {
+     "id": "218222",
+     "name": "Demo: Shopify - ERP Cloud Accelerator",
+     "description": "Demo: Shopify - ERP Cloud Accelerator",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "225"
+    },
+    {
+     "id": "218225",
+     "name": "Demo: Cohere to Slack Prebuilt Solution",
+     "description": "Demo: Cohere to Slack Prebuilt Solution",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "413"
+    },
+    {
+     "id": "218226",
+     "name": "Demo: Oracle ERP Warehouse Management Inventory Transactions Prebuilt Solution",
+     "description": "Demo: Oracle ERP Warehouse Management Inventory Transactions Prebuilt Solution",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "301"
+    },
+    {
+     "id": "272387",
+     "name": "Skill Check: Module 10: Integration Solution Examples",
+     "description": "<p>Skill Check: Module 10: Integration Solution Examples</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15040",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "2771"
+  },
+  {
+   "id": "163026",
+   "name": "AI Features & Capabilities",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "272320",
+     "name": "AI Features & Capabilities",
+     "description": "S1110629GC10Ed7_AI Features and Capabilities Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "69",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272321",
+     "name": "Augment Integrations with OCI AI Services",
+     "description": "S1110629GC10Ed7_Augment Integrations with OCI AI Services",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "511",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272331",
+     "name": "Use the OCI Document Understanding Action - Part 1",
+     "description": "S1110629GC10Ed7_Use the OCI Document Understanding Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "353",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272332",
+     "name": "Use the OCI Document Understanding Action - Part 2",
+     "description": "S1110629GC10Ed7_Use the OCI Document Understanding Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "442",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272333",
+     "name": "Use the OCI Generative AI Action - Part 1",
+     "description": "S1110629GC10Ed7_Use the OCI Generative AI Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "473",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272334",
+     "name": "Use the OCI Generative AI Action - Part 2",
+     "description": "S1110629GC10Ed7_Use the OCI Generative AI Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "441",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272329",
+     "name": "Use the Generative AI Agents RAG Action - Part 1",
+     "description": "S1110629GC10Ed7_Use the Generative AI Agents RAG Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "500",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272330",
+     "name": "Use the Generative AI Agents RAG Action - Part 2",
+     "description": "S1110629GC10Ed7_Use the Generative AI Agents RAG Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "494",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272335",
+     "name": "Use the OCI Language Action - Part 1",
+     "description": "S1110629GC10Ed7_Use the OCI Language Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "364",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272336",
+     "name": "Use the OCI Language Action - Part 2",
+     "description": "S1110629GC10Ed7_Use the OCI Language Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "543",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "277703",
+     "name": "Use the OCI Speech Action - Part 1",
+     "description": "Use the OCI Speech Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "410",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "277704",
+     "name": "Use the OCI Speech Action - Part 2",
+     "description": "Use the OCI Speech Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "513",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "277705",
+     "name": "Use the OCI Vision Action - Part 1",
+     "description": "Use the OCI Vision Action - Part 1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "559",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "277706",
+     "name": "Use the OCI Vision Action - Part 2",
+     "description": "Use the OCI Vision Action - Part 2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "535",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272015",
+     "name": "Fast Track Automation With AI Assistant",
+     "description": "<p>Fast Track Automation With AI Assistant</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "544",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272327",
+     "name": "Use AI Assistant to Create or Edit Integrations",
+     "description": "S1110629GC10Ed7_Use AI Assistant to Create or Edit Integrations",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "371",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272328",
+     "name": "Use AI Assistant to Generate Descriptions & Documentation",
+     "description": "S1110629GC10Ed7_Use AI Assistant to Generate Descriptions and Documentation",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "647",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272326",
+     "name": "Use AI Assistant to Create a B2B Trading Partner Setup",
+     "description": "S1110629GC10Ed7_Use AI Assistant to Create a B2B Trading Partner Setup",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "420",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272020",
+     "name": "Use Integrations as Tools in an MCP Server",
+     "description": "Use Integrations as Tools in an MCP Server",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "484",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272013",
+     "name": "Design & Build AI Agents \u2013 Part 1",
+     "description": "<p>Design &amp; Build AI Agents &ndash; Part 1</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "340",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272014",
+     "name": "Design & Build AI Agents \u2013 Part 2",
+     "description": "<p>Design &amp; Build AI Agents &ndash; Part 2</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "501",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272009",
+     "name": "Add Human Approval to Your AI Agent",
+     "description": "Add Human Approval to Your AI Agent",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "594",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "278393",
+     "name": "Demo: Exploring HITL",
+     "description": "<p>Demo: Exploring HITL</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "653",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272011",
+     "name": "Demo: Designing Agentic AI with OIC & MCP",
+     "description": "Demo: Designing Agentic AI with OIC & MCP",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "1770",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "277702",
+     "name": "Demo: Using OCI Language & OCI Generative AI Actions to Automate Customer Feedback",
+     "description": "Demo: Using OCI Language & OCI Generative AI Actions to Automate Customer Feedback",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "644",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "272388",
+     "name": "Skill Check: Module 11: AI Features &amp; Capabilities",
+     "description": "<p>Skill Check: Module 11: AI Features &amp;amp; Capabilities</p>\r\n",
+     "typeId": "2",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "scoreThreshold": "80",
+     "AsxInstanceId": "15041",
+     "UseAsxExamPlayer": "Y",
+     "UseProctorio": "N",
+     "UseRustici": "N"
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "13175"
+  },
+  {
+   "id": "147835",
+   "name": "Lab Solution Demos",
+   "typeId": "23",
+   "freeYn": "N",
+   "keywords": [],
+   "filterTypes": [],
+   "components": [
+    {
+     "id": "218227",
+     "name": "Lab Solution Demos Overview",
+     "description": "Lab Solution Demos Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "43",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218228",
+     "name": "Lab 01 Overview",
+     "description": "Lab 01 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "367"
+    },
+    {
+     "id": "242573",
+     "name": "Practice 1-1",
+     "description": "Practice 1-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "258",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242587",
+     "name": "Practice 1-2",
+     "description": "Practice 1-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "191",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242586",
+     "name": "Practice 1-3",
+     "description": "Practice 1-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "221",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242593",
+     "name": "Practice 1-4",
+     "description": "Practice 1-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "198",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242576",
+     "name": "Practice 1-5",
+     "description": "Practice 1-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "467",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218234",
+     "name": "Lab 02 Overview",
+     "description": "Lab 02 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "90"
+    },
+    {
+     "id": "242585",
+     "name": "Practice 2-1",
+     "description": "Practice 2-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "257",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242572",
+     "name": "Practice 2-2",
+     "description": "Practice 2-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "687",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242592",
+     "name": "Practice 2-3",
+     "description": "Practice 2-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "270",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242601",
+     "name": "Practice 2-4",
+     "description": "Practice 2-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "286",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218239",
+     "name": "Lab 03 Overview",
+     "description": "Lab 03 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "76"
+    },
+    {
+     "id": "242588",
+     "name": "Practice 3-1",
+     "description": "Practice 3-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "171",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242571",
+     "name": "Practice 3-2",
+     "description": "Practice 3-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "326",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242575",
+     "name": "Practice 3-3",
+     "description": "Practice 3-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "263",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242603",
+     "name": "Practice 3-4",
+     "description": "Practice 3-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "329",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242597",
+     "name": "Practice 3-5",
+     "description": "Practice 3-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "278",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242584",
+     "name": "Practice 3-6",
+     "description": "Practice 3-6",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "219",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242583",
+     "name": "Practice 3-7",
+     "description": "Practice 3-7",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "186",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218247",
+     "name": "Lab 04 Overview",
+     "description": "Lab 04 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "67"
+    },
+    {
+     "id": "242591",
+     "name": "Practice 4-1",
+     "description": "Practice 4-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "209",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242596",
+     "name": "Practice 4-2",
+     "description": "Practice 4-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "286",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242538",
+     "name": "Practice 4-3",
+     "description": "Practice 4-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "238",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242582",
+     "name": "Practice 4-4",
+     "description": "Practice 4-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "289",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242541",
+     "name": "Practice 4-5",
+     "description": "Practice 4-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "318",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218205",
+     "name": "Lab 05 Overview",
+     "description": "Lab 05 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "126"
+    },
+    {
+     "id": "242581",
+     "name": "Practice 5-1",
+     "description": "Practice 5-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "165",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242567",
+     "name": "Practice 5-2",
+     "description": "Practice 5-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "157",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242570",
+     "name": "Practice 5-3",
+     "description": "Practice 5-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "370",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242590",
+     "name": "Practice 5-4",
+     "description": "Practice 5-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "181",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242600",
+     "name": "Practice 5-5",
+     "description": "Practice 5-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "508",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218211",
+     "name": "Lab 06 Overview",
+     "description": "Lab 06 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "145"
+    },
+    {
+     "id": "242595",
+     "name": "Practice 6-1",
+     "description": "Practice 6-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "223",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242566",
+     "name": "Practice 6-2",
+     "description": "Practice 6-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "239",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242540",
+     "name": "Practice 6-3",
+     "description": "Practice 6-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "279",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242550",
+     "name": "Practice 6-4",
+     "description": "Practice 6-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "243",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242589",
+     "name": "Practice 6-5",
+     "description": "Practice 6-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "432",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218217",
+     "name": "Lab 07 Overview",
+     "description": "Lab 07 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "117"
+    },
+    {
+     "id": "242553",
+     "name": "Practice 7-1",
+     "description": "Practice 7-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "227",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242704",
+     "name": "Practice 7-2",
+     "description": "<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+     "typeId": "1",
+     "freeYn": "N",
+     "requireSSOYn": "N",
+     "duration": "109",
+     "scoreThreshold": "80",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242557",
+     "name": "Practice 7-3",
+     "description": "Practice 7-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "308",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242547",
+     "name": "Practice 7-4",
+     "description": "Practice 7-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "328",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242559",
+     "name": "Practice 7-5",
+     "description": "Practice 7-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "395",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242549",
+     "name": "Practice 7-6",
+     "description": "Practice 7-6",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "323",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218257",
+     "name": "Lab 08 Overview",
+     "description": "Lab 08 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "137"
+    },
+    {
+     "id": "242556",
+     "name": "Practice 8-1",
+     "description": "Practice 8-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "162",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242546",
+     "name": "Practice 8-2",
+     "description": "Practice 8-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "214",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242565",
+     "name": "Practice 8-3",
+     "description": "Practice 8-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "549",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242562",
+     "name": "Practice 8-4",
+     "description": "Practice 8-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "97",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242594",
+     "name": "Practice 8-5",
+     "description": "Practice 8-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "733",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218263",
+     "name": "Lab 09 Overview",
+     "description": "Lab 09 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "198"
+    },
+    {
+     "id": "242548",
+     "name": "Practice 9-1",
+     "description": "Practice 9-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "239",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242561",
+     "name": "Practice 9-2",
+     "description": "Practice 9-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "322",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242555",
+     "name": "Practice 9-3",
+     "description": "Practice 9-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "186",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242552",
+     "name": "Practice 9-4",
+     "description": "Practice 9-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "244",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242599",
+     "name": "Practice 9-5",
+     "description": "Practice 9-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "257",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242598",
+     "name": "Practice 9-6",
+     "description": "Practice 9-6",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "1050",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242602",
+     "name": "Practice 9-7",
+     "description": "Practice 9-7",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "725",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218087",
+     "name": "Lab 10 Overview",
+     "description": "Lab 10 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "200"
+    },
+    {
+     "id": "242545",
+     "name": "Practice 10-1",
+     "description": "Practice 10-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "148",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242560",
+     "name": "Practice 10-2",
+     "description": "Practice 10-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "265",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242543",
+     "name": "Practice 10-3",
+     "description": "Practice 10-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "285",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242542",
+     "name": "Practice 10-4",
+     "description": "Practice 10-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "1378",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242539",
+     "name": "Practice 10-5",
+     "description": "Practice 10-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "967",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242564",
+     "name": "Practice 10-6",
+     "description": "Practice 10-6",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "438",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "218094",
+     "name": "Lab 11 Overview",
+     "description": "Lab 11 Overview",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "259"
+    },
+    {
+     "id": "242558",
+     "name": "Practice 11-1",
+     "description": "Practice 11-1",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "362",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242554",
+     "name": "Practice 11-2",
+     "description": "Practice 11-2",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "95",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242544",
+     "name": "Practice 11-3",
+     "description": "Practice 11-3",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "230",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242569",
+     "name": "Practice 11-4",
+     "description": "Practice 11-4",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "761",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242551",
+     "name": "Practice 11-5",
+     "description": "Practice 11-5",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "317",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242568",
+     "name": "Practice 11-6",
+     "description": "Practice 11-6",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "815",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    },
+    {
+     "id": "242563",
+     "name": "Practice 11-7",
+     "description": "Practice 11-7",
+     "typeId": "1",
+     "freeYn": "N",
+     "duration": "476",
+     "feedback": {
+      "id": "27",
+      "name": "Video Feedback",
+      "questions": [
+       {
+        "QID": "70",
+        "QUESTION": "Rate this video",
+        "TYPE": "star",
+        "ANSWER": {
+         "188": "5",
+         "189": "1",
+         "190": "2",
+         "191": "3",
+         "192": "4"
+        }
+       },
+       {
+        "QID": "71",
+        "QUESTION": "Additional Comments",
+        "TYPE": "textarea"
+       }
+      ],
+      "source": "VIDEO_COMPONENT"
+     }
+    }
+   ],
+   "articles": [],
+   "overviewVideos": [],
+   "totalDuration": "23574"
+  }
+ ],
+ "lab": {
+  "id": "273478",
+  "name": "Lab: Application Integration on Oracle Cloud",
+  "description": "<p>Lab: Application Integration on Oracle Cloud</p>\r\n",
+  "typeId": "6",
+  "freeYn": "N",
+  "requireSSOYn": "N",
+  "labType": "IL",
+  "labUiType": "N",
+  "premiumContainerId": "",
+  "premiumContainerName": "",
+  "scoreThreshold": "80"
+ },
+ "eKits": [
+  {
+   "id": "272816",
+   "name": "Application Integration on Oracle Cloud (Student Guide - Volume I)",
+   "description": "<p>Application Integration on Oracle Cloud (Student Guide - Volume I)</p>\r\n",
+   "typeId": "5",
+   "freeYn": "N",
+   "requireSSOYn": "N",
+   "scoreThreshold": "80",
+   "fileType": "flipbook",
+   "ekitId": "10448faa-d953-4179-b884-87feead7f9b1",
+   "useOCIbucket": "Y",
+   "duration": "0"
+  },
+  {
+   "id": "272817",
+   "name": "Application Integration on Oracle Cloud (Student Guide - Volume II)",
+   "description": "<p>Application Integration on Oracle Cloud (Student Guide - Volume II)</p>\r\n",
+   "typeId": "5",
+   "freeYn": "N",
+   "requireSSOYn": "N",
+   "scoreThreshold": "80",
+   "fileType": "flipbook",
+   "ekitId": "ade710d9-5efd-4f29-8db1-fc8a96d70da2",
+   "useOCIbucket": "Y",
+   "duration": "0"
+  },
+  {
+   "id": "272818",
+   "name": "Application Integration on Oracle Cloud (Activity Guide)",
+   "description": "<p>Application Integration on Oracle Cloud (Activity Guide)</p>\r\n",
+   "typeId": "5",
+   "freeYn": "N",
+   "requireSSOYn": "N",
+   "scoreThreshold": "80",
+   "fileType": "flipbook",
+   "ekitId": "88724021-4fd8-4d66-9ae6-9d635879e2c0",
+   "useOCIbucket": "Y",
+   "duration": "0"
+  },
+  {
+   "id": "216887",
+   "name": " Application Integration on Oracle Cloud (Lab Files)",
+   "description": "<p>&nbsp;Application Integration on Oracle Cloud (Lab Files)</p>\r\n",
+   "typeId": "5",
+   "freeYn": "N",
+   "requireSSOYn": "N",
+   "scoreThreshold": "80",
+   "fileType": "zip",
+   "ekitId": "0d92b559-108a-4f97-a35e-49f28416fd3f",
+   "useOCIbucket": "Y",
+   "duration": "0"
+  }
+ ],
+ "totalDuration": "86196",
+ "courseCertificateYN": "N",
+ "overviewVideos": []
+}

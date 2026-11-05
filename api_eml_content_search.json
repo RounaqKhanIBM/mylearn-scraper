@@ -1,0 +1,301 @@
+{
+ "took": 6,
+ "timed_out": false,
+ "_shards": {
+  "total": 4,
+  "successful": 4,
+  "skipped": 0,
+  "failed": 0
+ },
+ "hits": {
+  "total": {
+   "value": 1,
+   "relation": "eq"
+  },
+  "max_score": null,
+  "hits": [
+   {
+    "_index": "mlprod_content_ou_index_761a6808-c5d5-4e15-b4f4-26bcf16610f3",
+    "_id": "163138",
+    "_score": null,
+    "_source": {
+     "dl.item.prodShortName": "OCI",
+     "dl.item.legacyType": "4.0 Learning Path",
+     "dl.item.offering_part_numbers": [
+      "B109006,Z000000,P000010,D98523,D92975,D85891,D110029,D109813,D109812,D109811,D109807,D109806,D109802,D109801,D109800,D109697,D109689,D109670,D109650,D109648,D109642,D109378,D109366,D109364,D109148,D109147,D109146,D109142,D109141,D109140,D109136,D109135,D109134,CS0060,CS0059,CS0058,CS0001,C0001,B94457,B94455,B94453,B94111,B94110,B92816,B92815,B92653,B90137,B90136,B113186,B113065,B109224,B109222,B109220,B109207,B109206,B109021,B109019,B109017"
+     ],
+     "dl.item.componentTypeId": "20",
+     "dl.item.product": "Oracle Cloud Infrastructure New",
+     "dl.item.library": {
+      "name": "ou_library",
+      "label": {
+       "text": "ou_library"
+      },
+      "url": ""
+     },
+     "dl.item.description": "Oracle Integration (OIC) Provides A Fully Managed, Preconfigured Environment That Gives You The Power To Integrate Your Cloud And On-premises Applications. Developers And Cloud Architects Can Connect SaaS And On-premises Applications Six Times Faster With A Visual Development Experience, Prebuilt Integrations, And Embedded Best Practices.&nbsp;&nbsp;\r\n\r\nAt The End Of This Training, You Will Be Prepared To Take On The Application Integration Professional Certification.\r\n\r\nYou Will Learn To:\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Understand OIC Components, Features, And Capabilities\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Create And Configure Connections (Adapter, Trigger, Invoke)\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Create Integrations (Application, Schedule, And Event Patterns)\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Map Data Using Lookups And The Data Mapper\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Leverage File Handling Options, Features, And Capabilities\r\n\r\n&bull;&nbsp;&nbsp;&nbsp; Configure Orchestration Actions And Fault Handling Logic\r\n\r\n&nbsp;\r\n\r\nEmbark On A Successful Journey To Master OIC Integrations Design And Implementation\r\n\r\nInstructor: David Mills\r\n\r\nThe Course In This Learning Path Are Continuously Updated To Reflect The Latest Product Changes.",
+     "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure New",
+     "dl.item.tags": [
+      "#certification",
+      "#paid"
+     ],
+     "dl.item.type": "Learning Path",
+     "dl.item.num_items": "4",
+     "dl.item.is_free": 0,
+     "dl.item.role": [
+      "Integration Specialist"
+     ],
+     "dl.item.badgeId": "",
+     "dl.item.area": [
+      "Integration & Automation"
+     ],
+     "dl.item.id": "163138",
+     "dl.item.subTitle": "",
+     "dl.item.areaId": [
+      "5369"
+     ],
+     "dl.item.roleId": [
+      "2559"
+     ],
+     "dl.item.offerings": [
+      "163295"
+     ],
+     "dl.item.duration": "88328",
+     "dl.pillar_names": [
+      "OCI"
+     ],
+     "dl.item.name": "Become An Application Integration Professional"
+    },
+    "sort": [
+     0
+    ]
+   }
+  ]
+ },
+ "aggregations": {
+  "dl.item.offering_names": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Oracle Cloud Infrastructure Learning & Certification Subscription",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.lses.date": {
+   "buckets": [
+    {
+     "key": "evNext30Days",
+     "from": 1793145600000,
+     "from_as_string": "Oct-28-2026",
+     "to": 1795824000000,
+     "to_as_string": "Nov-28-2026",
+     "doc_count": 0
+    }
+   ]
+  },
+  "dl.item.heriachy": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Oracle Cloud Infrastructure New__OCI__163295__1__OCI",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.product": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Oracle Cloud Infrastructure New",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.mergedProd": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "OCI__Oracle Cloud Infrastructure New",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.tags": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "#certification",
+     "doc_count": 1
+    },
+    {
+     "key": "#paid",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.product_category": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "OCI",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.type": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Learning Path",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.product_family": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Oracle Cloud Infrastructure New",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.productList": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Oracle Cloud Infrastructure New",
+     "doc_count": 1,
+     "priority": 0
+    },
+    {
+     "key": "Oracle Cloud Infrastructure Training & Certification (New!)",
+     "doc_count": 1,
+     "priority": 0
+    }
+   ]
+  },
+  "dl.item.creation_date": {
+   "buckets": [
+    {
+     "key": "90dNew",
+     "from": 1782864000000,
+     "from_as_string": "Jul-2026",
+     "to": 1793232000000,
+     "to_as_string": "Oct-2026",
+     "doc_count": 0
+    }
+   ]
+  },
+  "dl.item.role": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Integration Specialist",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.area": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "Integration & Automation",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.categorizedTags": {
+   "value": {}
+  },
+  "dl.item.offerings": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "163295",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.duration": {
+   "buckets": [
+    {
+     "key": "0:3H",
+     "from": 1,
+     "to": 10799,
+     "doc_count": 0
+    },
+    {
+     "key": "3:6H",
+     "from": 10800,
+     "to": 21599,
+     "doc_count": 0
+    },
+    {
+     "key": "6:17H",
+     "from": 21600,
+     "to": 61199,
+     "doc_count": 0
+    },
+    {
+     "key": "17+H",
+     "from": 61200,
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.pillar_names": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "OCI",
+     "doc_count": 1
+    }
+   ]
+  },
+  "dl.item.dlfiltags": {
+   "doc_count_error_upper_bound": 0,
+   "sum_other_doc_count": 0,
+   "buckets": [
+    {
+     "key": "163295 Cloud Data Engineer",
+     "doc_count": 1
+    },
+    {
+     "key": "163295 Develop Modern Cloud Applications",
+     "doc_count": 1
+    },
+    {
+     "key": "Application Development on OCI",
+     "doc_count": 1
+    },
+    {
+     "key": "Integration",
+     "doc_count": 1
+    },
+    {
+     "key": "Integration Cloud",
+     "doc_count": 1
+    },
+    {
+     "key": "Learning Path",
+     "doc_count": 1
+    }
+   ]
+  }
+ }
+}
