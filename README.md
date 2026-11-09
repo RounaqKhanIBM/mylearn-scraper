@@ -2,7 +2,37 @@
 
 Downloads the video transcripts from an Oracle MyLearn course into plain-text files, organized by module and in playlist order.
 
-## Requirements
+## Easiest way: download the app (no Python needed)
+
+1. Download the file for your computer from the project's **Releases** page:
+   - `mylearn-scraper-windows.exe` for Windows
+   - `mylearn-scraper-macos-arm64` for Macs with Apple silicon (M1 or newer)
+   - `mylearn-scraper-macos-intel` for Intel Macs
+2. Open it. A menu appears. Choose **1) Sign in** first, then **3) Download transcripts**.
+3. Transcripts are saved to `MyLearn Transcripts` in your home folder.
+
+The first time you sign in or download, the app fetches a Chromium browser (about 500 MB on disk, one time only), so it needs an internet connection. It is saved in `~/.mylearn_browsers`.
+
+**Security prompts.** The apps are not code-signed, so your OS warns you the first time:
+- **Windows:** click *More info*, then *Run anyway*.
+- **macOS:** the file also needs to be marked executable. In Terminal run `chmod +x ~/Downloads/mylearn-scraper-macos-*`, then `xattr -d com.apple.quarantine ~/Downloads/mylearn-scraper-macos-*`, then double-click it (or right-click, *Open*).
+
+The app also accepts the command-line options described below, e.g. `mylearn-scraper --dry-run "<url>"`.
+
+### Building the executables yourself
+
+PyInstaller builds only for the OS it runs on.
+
+```bash
+pip install -r requirements-build.txt
+python build.py          # produces dist/mylearn-scraper (or .exe on Windows)
+```
+
+Pushing a tag such as `v1.0.0` runs `.github/workflows/build.yml`, which builds Windows, Apple silicon and Intel Mac binaries and attaches them to a GitHub Release.
+
+## Running from source
+
+### Requirements
 
 - macOS or Linux (the launcher is a bash script; on Windows use WSL or Git Bash)
 - Python 3 (`python3` on your PATH)
