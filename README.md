@@ -34,7 +34,7 @@ Pushing a tag such as `v1.0.0` runs `.github/workflows/build.yml`, which builds 
 
 ### Requirements
 
-- macOS or Linux (the launcher is a bash script; on Windows use WSL or Git Bash)
+- macOS, Linux or Windows (`run.sh` for macOS/Linux, `run.bat` for Windows)
 - Python 3 (`python3` on your PATH)
 - An Oracle account that can view the course. Transcripts are only served to signed-in users.
 
@@ -62,6 +62,18 @@ Setup takes a minute or two the first time because of the Chromium download. Run
 The other commands refuse to run until setup has been done.
 
 Any URL for the course works, with or without a trailing video ID. Put the URL in quotes.
+
+### Windows (from source)
+
+Use `run.bat` in place of `./run.sh`, from Command Prompt or PowerShell in the project folder. Put the URL in double quotes:
+
+```bat
+run.bat setup
+run.bat login "https://mylearn.oracle.com/ou/course/<course-name>/<course-id>"
+run.bat scrape "https://mylearn.oracle.com/ou/course/<course-name>/<course-id>" --only-module 1
+```
+
+It needs Python 3 from [python.org](https://www.python.org/downloads/) (tick *Add python.exe to PATH*, or install the `py` launcher). Most Windows users should use the `.exe` from Releases instead.
 
 ## Commands
 
@@ -164,7 +176,10 @@ The Playwright browser may be hidden behind other windows. It is a separate Chro
 
 | File | Purpose |
 |---|---|
-| `run.sh` | Launcher for `setup`, `login`, `preview` and `scrape` |
+| `run.sh` | Launcher for `setup`, `login`, `preview` and `scrape` (macOS/Linux) |
+| `run.bat` | The same launcher for Windows |
+| `build.py`, `requirements-build.txt` | Build the single-file executable with PyInstaller |
+| `.github/workflows/build.yml` | Builds the Windows and macOS executables and attaches them to a Release |
 | `setup.sh` | Creates the virtual environment and installs the dependencies and browser (also available as `./run.sh setup`) |
 | `scrape_course.py` | The scraper itself. Run it directly with `python3 scrape_course.py --help` for the full flag list |
 | `requirements.txt` | Pinned Python dependency (Playwright) |

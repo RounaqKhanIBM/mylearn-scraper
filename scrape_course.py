@@ -7,7 +7,7 @@ Scrape an Oracle MyLearn course into local transcript files.
 * <MM> / <NN> are zero-padded playlist positions (module within the course, video within the module).
 * Spaces become '_' (e.g. "Intro to OCI" -> 01_Intro_to_OCI.txt, module "Networking" -> 02_Networking/).
 * Each .txt contains the video title/URL followed by the text of its Transcript tab.
-* If a video has no transcript, no file is written for it. It is reported in the terminal and listed in
+* If a video has no transcript, o file is written for it. It is reported in the terminal and listed in
   <OUT>/<Course_Name>/MISSING_TRANSCRIPTS.txt, and the script still exits 0 (--fail-fast stops at the first one).
 
 Transcripts are only served to signed-in users, so log in once:
