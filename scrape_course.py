@@ -7,7 +7,7 @@ Scrape an Oracle MyLearn course into local transcript files.
 * <MM> / <NN> are zero-padded playlist positions (module within the course, video within the module).
 * Spaces become '_' (e.g. "Intro to OCI" -> 01_Intro_to_OCI.txt, module "Networking" -> 02_Networking/).
 * Each .txt contains the video title/URL followed by the text of its Transcript tab.
-* If a video has no transcript, no file is written for it. It is reported in the terminal and listed in
+* If a video has no transcript, o file is written for it. It is reported in the terminal and listed in
   <OUT>/<Course_Name>/MISSING_TRANSCRIPTS.txt, and the script still exits 0 (--fail-fast stops at the first one).
 
 Transcripts are only served to signed-in users, so log in once:
@@ -25,8 +25,10 @@ Useful flags:
 """
 import argparse
 import html
+import os
 import re
 import shutil
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -37,7 +39,14 @@ from playwright.sync_api import sync_playwright
 VIDEO_TYPE_ID = "1"          # component typeId for videos (2 = skill check, etc.)
 TRANSCRIPT_SEL = ".p3sdk-interactive-transcript-content"
 PROFILE_DIR = Path.home() / ".mylearn_profile"
+BROWSERS_DIR = Path.home() / ".mylearn_browsers"
+if getattr(sys, "frozen", False):
+    # In a PyInstaller build Playwright would otherwise look for browsers inside the temporary unpack
+    # folder, which is deleted on exit. Keep the downloaded Chromium in a persistent location instead.
+    os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", str(BROWSERS_DIR))
 DEFAULT_OUT = Path("output")
+# Guided mode: a double-clicked app may start in an arbitrary directory, so use a fixed, visible location.
+DEFAULT_INTERACTIVE_OUT = Path.home() / "MyLearn Transcripts"
 
 
 class NotLoggedIn(RuntimeError):
@@ -76,11 +85,29 @@ def find_browser(explicit):
     return None  # fall back to Playwright's bundled Chromium
 
 
+def ensure_browser(p, explicit):
+    """Download Playwright's Chromium on first run if no usable browser is present."""
+    if find_browser(explicit) or Path(p.chromium.executable_path).exists():
+        return
+    print("\nFirst run: downloading the Chromium browser (about 150 MB, one time only). Please wait...")
+    from playwright._impl._driver import compute_driver_executable, get_driver_env
+    node, cli = compute_driver_executable()
+    try:
+        subprocess.run([node, cli, "install", "chromium"], env=get_driver_env(), check=True)
+    except (subprocess.CalledProcessError, OSError):
+        sys.exit("\nCould not download Chromium. Check your internet connection and try again.")
+
+
 def launch(p, args, headless):
+    ensure_browser(p, args.browser)
+    # Chromium's sandbox must stay enabled on macOS/Windows; Linux containers often need it off.
+    flags = ["--autoplay-policy=no-user-gesture-required"]
+    if sys.platform.startswith("linux"):
+        flags.insert(0, "--no-sandbox")
     kw = dict(
         headless=headless,
         viewport={"width": 1500, "height": 1100},
-        args=["--no-sandbox", "--autoplay-policy=no-user-gesture-required"],
+        args=flags,
     )
     exe = find_browser(args.browser)
     if exe:
@@ -187,18 +214,7 @@ def write_missing_report(path, failures, total):
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("url")
-    ap.add_argument("--out", default=str(DEFAULT_OUT))
-    ap.add_argument("--login", action="store_true")
-    ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--fail-fast", action="store_true")
-    ap.add_argument("--headed", action="store_true")
-    ap.add_argument("--only-module", type=int, action="append")
-    ap.add_argument("--browser")
-    args = ap.parse_args()
-
+def run(args):
     slug, course_id, _ = parse_url(args.url)
 
     with sync_playwright() as p:
@@ -268,6 +284,83 @@ def main():
             write_missing_report(report, failures, total)
             print(f"\nFull list saved to {report}")
         return 0
+
+
+def ask_url():
+    while True:
+        url = input("\nPaste the MyLearn course URL (or press Enter to go back): ").strip().strip('"\'')
+        if not url:
+            return None
+        if url.startswith("https://mylearn.oracle.com/") and re.search(r"/course/[^/]+/\d+", url):
+            return url
+        print("That doesn't look like a MyLearn course URL "
+              "(expected https://mylearn.oracle.com/ou/course/<name>/<id>).")
+
+
+def ask_modules():
+    while True:
+        raw = input("Which modules? Press Enter for all, or type numbers like 1,3: ").strip()
+        if not raw:
+            return None
+        try:
+            return [int(x) for x in raw.replace(" ", "").split(",") if x]
+        except ValueError:
+            print("Please enter numbers separated by commas.")
+
+
+def interactive():
+    print("=" * 60)
+    print(" MyLearn Transcript Scraper")
+    print("=" * 60)
+    while True:
+        print("\n  1) Sign in   (do this first, and again if your session expires)")
+        print("  2) Preview   (list what would be saved; saves nothing)")
+        print("  3) Download transcripts")
+        print("  4) Quit")
+        choice = input("\nChoose 1-4: ").strip()
+        if choice == "4":
+            return 0
+        if choice not in ("1", "2", "3"):
+            continue
+        url = ask_url()
+        if not url:
+            continue
+        args = argparse.Namespace(url=url, out=str(DEFAULT_INTERACTIVE_OUT), login=choice == "1",
+                                  dry_run=choice == "2", fail_fast=False, headed=False,
+                                  only_module=None, browser=None)
+        if choice in ("2", "3"):
+            args.only_module = ask_modules()
+        if choice == "3":
+            out = input(f"Save transcripts to [{DEFAULT_INTERACTIVE_OUT}]: ").strip().strip('"\'')
+            args.out = out or args.out
+        try:
+            run(args)
+        except SystemExit as e:
+            if e.code not in (None, 0):
+                print(e.code)
+        except KeyboardInterrupt:
+            print("\nCancelled.")
+        except Exception as e:  # keep the menu alive; show a short message instead of a traceback
+            print(f"\nSomething went wrong: {type(e).__name__}: {e}")
+
+
+def main():
+    if len(sys.argv) == 1:  # no arguments (e.g. double-clicked): guided mode
+        try:
+            return interactive()
+        finally:
+            if sys.platform == "win32":
+                input("\nPress Enter to close this window...")
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("url")
+    ap.add_argument("--out", default=str(DEFAULT_OUT))
+    ap.add_argument("--login", action="store_true")
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--fail-fast", action="store_true")
+    ap.add_argument("--headed", action="store_true")
+    ap.add_argument("--only-module", type=int, action="append")
+    ap.add_argument("--browser")
+    return run(ap.parse_args())
 
 
 if __name__ == "__main__":
