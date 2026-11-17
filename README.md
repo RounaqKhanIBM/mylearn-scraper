@@ -4,12 +4,15 @@ Downloads the video transcripts from an Oracle MyLearn course into plain-text fi
 
 ## Easiest way: download the app (no Python needed)
 
-1. Download the file for your computer from the project's **Releases** page:
-   - `mylearn-scraper-windows.exe` for Windows
-   - `mylearn-scraper-macos-arm64` for Macs with Apple silicon (M1 or newer)
-   - `mylearn-scraper-macos-intel` for Intel Macs
+1. **Download the app for your computer:**
+   - 🪟 **Windows:** [**Download `mylearn-scraper-windows.exe`**](https://github.com/RounaqKhanIBM/mylearn-scraper/releases/latest/download/mylearn-scraper-windows.exe)
+   - 🍎 **Mac (Apple Silicon / M1/M2/M3/M4):** [**Download `mylearn-scraper-macos-arm64`**](https://github.com/RounaqKhanIBM/mylearn-scraper/releases/latest/download/mylearn-scraper-macos-arm64)
+   - 💻 **Mac (Intel):** [**Download `mylearn-scraper-macos-intel`**](https://github.com/RounaqKhanIBM/mylearn-scraper/releases/latest/download/mylearn-scraper-macos-intel)
+
+   *(You can also browse all versions on the [**GitHub Releases page**](https://github.com/RounaqKhanIBM/mylearn-scraper/releases/latest).)*
+
 2. Open it. A menu appears. Choose **1) Sign in** first, then **3) Download transcripts**.
-3. Transcripts are saved to `MyLearn Transcripts` in your home folder.
+3. Transcripts are saved to a folder on your **Desktop** (named after the course).
 
 The first time you sign in or download, the app fetches a Chromium browser (about 500 MB on disk, one time only), so it needs an internet connection. It is saved in `~/.mylearn_browsers`.
 

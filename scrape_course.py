@@ -46,7 +46,7 @@ if getattr(sys, "frozen", False):
     os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", str(BROWSERS_DIR))
 DEFAULT_OUT = Path("output")
 # Guided mode: a double-clicked app may start in an arbitrary directory, so use a fixed, visible location.
-DEFAULT_INTERACTIVE_OUT = Path.home() / "MyLearn Transcripts"
+DEFAULT_INTERACTIVE_OUT = Path.home() / "Desktop" if (Path.home() / "Desktop").exists() else Path.home()
 
 
 class NotLoggedIn(RuntimeError):
@@ -331,7 +331,7 @@ def interactive():
         if choice in ("2", "3"):
             args.only_module = ask_modules()
         if choice == "3":
-            out = input(f"Save transcripts to [{DEFAULT_INTERACTIVE_OUT}]: ").strip().strip('"\'')
+            out = input(f"Enter destination folder path (or press Enter for default: {DEFAULT_INTERACTIVE_OUT}): ").strip().strip('"\'')
             args.out = out or args.out
         try:
             run(args)

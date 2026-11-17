@@ -3,6 +3,7 @@ output/
 __pycache__/
 .env
 output_baseline/
+.DS_Store
 
 # PyInstaller
 build/
